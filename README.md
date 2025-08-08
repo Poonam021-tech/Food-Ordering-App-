@@ -98,6 +98,13 @@ Food-Ordering-App-/
 └── README.md
 ```
 
+## 🌐 Live Demo
+
+**🚀 Try the app now:**
+- **Frontend**: [https://mealifyy.vercel.app/](https://mealifyy.vercel.app/)
+- **Backend API**: [https://food-ordering-api-fqtz.onrender.com](https://food-ordering-api-fqtz.onrender.com)
+- **GitHub Repository**: [https://github.com/Poonam021-tech/Food-Ordering-App-](https://github.com/Poonam021-tech/Food-Ordering-App-)
+
 ## 🌐 Deployment
 
 ### Frontend (Vercel)
@@ -107,11 +114,6 @@ Food-Ordering-App-/
 ### Backend (Render)
 - Deploy to Render with root directory set to `server`
 - Set environment variables for production
-
-## 📞 Contact
-
-Poonam - https://github.com/Poonam021-tech
-Project Link: https://github.com/Poonam021-tech/Food-Ordering-App-
 
 ---
 
