@@ -1,0 +1,15 @@
+{
+  "name": "mern-food-ordering",
+  "version": "1.0.0",
+  "description": "MERN Stack Food Ordering Application",
+  "scripts": {
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "dev": "start cmd /k \"cd server && npm run dev\" && start cmd /k \"cd client && npm start\""
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
