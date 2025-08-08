@@ -9,23 +9,11 @@ dotenv.config();
 const app = express();
 
 // CORS Configuration
-const allowedOrigins = [
-  'http://localhost:3000',
-  'https://mealifyy.vercel.app',
-  process.env.CORS_ORIGIN
-].filter(Boolean);
-
 const corsOptions = {
-  origin: function (origin, callback) {
-    // Allow requests with no origin (mobile apps, curl requests)
-    if (!origin) return callback(null, true);
-    
-    if (allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: [
+    'http://localhost:3000',
+    'https://mealifyy.vercel.app'
+  ],
   credentials: true,
   optionsSuccessStatus: 200
 };
